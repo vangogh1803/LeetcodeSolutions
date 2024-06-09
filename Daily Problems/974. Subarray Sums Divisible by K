@@ -12,7 +12,7 @@ public:
             sum+=nums[i];
             int r = sum%k;
         
-            if (r < 0){
+            if (r < 0){    //to handle negative numbers;
                 r += k;
             }
             if(mp.find(r)!=mp.end()){
