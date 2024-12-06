@@ -1,0 +1,7 @@
+Use Recursion when:
+1) No. of ways to do a thing is asked
+2) Give multiple ways of doing a task and Min/Max is asked
+
+Once we get the recursive method we can optimize it by making it a DP problem..
+1) represent the problem in terms of indexes
+2) try all possible choices/ways at every index
